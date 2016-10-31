@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="TOP_CENTER" hgap="2.0" vgap="4.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bromine0x23.excalibur.Controller">
+	<columnConstraints>
+		<ColumnConstraints />
+		<ColumnConstraints />
+		<ColumnConstraints />
+	</columnConstraints>
+	<rowConstraints>
+		<RowConstraints />
+		<RowConstraints />
+		<RowConstraints />
+		<RowConstraints />
+		<RowConstraints />
+	</rowConstraints>
+   <children>
+   	<MenuBar GridPane.columnSpan="2147483647" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0">
+      <menus>
+      		<Menu text="文件">
+         <items>
+         			<MenuItem text="打开" />
+         			<SeparatorMenuItem />
+         			<MenuItem text="退出" />
+         </items>
+      		</Menu>
+      		<Menu text="帮助">
+         <items>
+         			<MenuItem text="关于" />
+         </items>
+      		</Menu>
+      </menus>
+   	</MenuBar>
+   
+   	<TextField fx:id="fieldInput" editable="false" minWidth="400.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="4.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   	<TextField fx:id="fieldOutput" editable="false" minWidth="400.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="4.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   	<ComboBox fx:id="boxKeys" disable="true" maxWidth="1.7976931348623157E308" minWidth="-Infinity" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="4.0" />
+         </GridPane.margin>
+      </ComboBox>
+   	<TextArea fx:id="console" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" GridPane.rowSpan="2147483647">
+   		<GridPane.margin>
+   			<Insets bottom="4.0" left="4.0" right="4.0" />
+   		</GridPane.margin>
+   	</TextArea>
+   
+   	<Button fx:id="buttonInput" maxWidth="1.7976931348623157E308" onMouseClicked="#buttonInputClick" text="选择输入文件" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+   		<GridPane.margin>
+   			<Insets right="4.0" />
+   		</GridPane.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+   	</Button>
+   	<Button fx:id="buttonOutput" maxWidth="1.7976931348623157E308" onMouseClicked="#buttonOutputClick" text="选择输出文件夹" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+   		<GridPane.margin>
+   			<Insets right="4.0" />
+   		</GridPane.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+   	</Button>
+   	<Button fx:id="buttonExport" defaultButton="true" maxWidth="1.7976931348623157E308" onMouseClicked="#buttonExportClick" text="拆分" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+   		<GridPane.margin>
+   			<Insets right="4.0" />
+   		</GridPane.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+   	</Button>
+   </children>
+</GridPane>
