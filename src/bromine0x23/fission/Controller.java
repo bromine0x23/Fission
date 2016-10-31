@@ -1,4 +1,4 @@
-package bromine0x23.excalibur;
+package bromine0x23.fission;
 
 import bromine0x23.excalibur.export.Exporter07;
 import bromine0x23.excalibur.export.IExporter;

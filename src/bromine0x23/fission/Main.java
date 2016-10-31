@@ -1,4 +1,4 @@
-package bromine0x23.excalibur;
+package bromine0x23.fission;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

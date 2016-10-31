@@ -1,4 +1,4 @@
-package bromine0x23.excalibur;
+package bromine0x23.fission;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

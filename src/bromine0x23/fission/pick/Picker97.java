@@ -1,4 +1,4 @@
-package bromine0x23.excalibur.pick;
+package bromine0x23.fission.pick;
 
 import bromine0x23.excalibur.Key;
 import bromine0x23.excalibur.export.Exporter07;

@@ -1,4 +1,4 @@
-package bromine0x23.excalibur.parse;
+package bromine0x23.fission.parse;
 
 import bromine0x23.excalibur.Key;
 import bromine0x23.excalibur.Utility;

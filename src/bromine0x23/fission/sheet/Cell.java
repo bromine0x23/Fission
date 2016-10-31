@@ -1,4 +1,4 @@
-package bromine0x23.excalibur.sheet;
+package bromine0x23.fission.sheet;
 
 import lombok.AccessLevel;
 import lombok.Getter;
